@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: #000;
+    font-family: sans-serif;
+}
+ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ul li  {
+    list-style: none;
+    margin: 0 5px;
+}
+ul li a .fa {
+    font-size: 40px;
+    color: #333;
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 40px;
+}
+ul li a span {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    color: #333;
+    letter-spacing: 4px;
+    transition: 00.5s;
+}
+ul .a a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: right;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(50, 243, 0, 1);
+    transition: 0.5s;
+}
+ul .b a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: right;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(50, 243, 0, 1);
+    transition: 0.5s;
+}
+ul .c a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: right;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(50, 243, 0, 1);
+    transition: 0.5s;
+}
+ul .d a {
+    text-decoration: none;
+    display: block;
+    width: 210px;
+    height: 80px;
+    background: #fff;
+    text-align: right;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    box-shadow: -20px 20px 10px rgba(50, 243, 0, 1);
+    transition: 0.5s;
+}
+ul li a::before {
+    content: '';
+    position: absolute;
+    top : 10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewY(-45deg)
+}
+ul li a::after {
+    content: '';
+    position: absolute;
+    bottom : -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #b1b1b1;
+    transform: rotate(0deg) skewX(-45deg)
+}
+ul .a a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px); 
+}
+ul .b a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px); 
+}
+ul .c a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px); 
+}
+ul .d a:hover{
+    transform: rotate(-30deg) skew(25deg) translate(20px, -15px); 
+}
